@@ -14,7 +14,7 @@ You can fix this problem using one of two options:
 1. Change the permission to npm's default directory.
 1. Change npm's default directory to another directory.
 
-You should back-up your computer before moving forward.
+You should back up your computer before moving forward.
 
 
 ## Option 1: Change the permission to npm's default directory
@@ -36,7 +36,7 @@ You should back-up your computer before moving forward.
 
 ## Option 2: Change npm's default directory to another directory
 
-There are times when you do not want to change ownership of the default directory that npm uses (i.e. `/usr`) as this could cause some problems, for example if you are sharing the system with other users.
+There are times when you do not want to change ownership of the default directory that npm uses (i.e. `/usr`), as this could cause some problems, for example if you are sharing the system with other users.
 
 Instead, you can configure npm to use a different directory altogether. In our case, this will be a hidden directory in our home folder.
 
